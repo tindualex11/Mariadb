@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gcr.io/ica3-428901/nginx-proxy.latest
+        image: nginx-proxy.latest
         ports:
         - containerPort: 80
         volumeMounts:
