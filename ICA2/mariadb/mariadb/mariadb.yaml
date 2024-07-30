@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mariadb
-        image: gcr.io/ica3-428901/mariadb:latest
+        image: mariadb:latest
         env:
         - name: MYSQL_ROOT_PASSWORD
           value: root_password
