@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: gcr.io/ica3-428901/wordpress:latest
+        image: wordpress:latest
         env:
         - name: WORDPRESS_DB_HOST
           value: mariadb-service.mariadb.svc.cluster.local
